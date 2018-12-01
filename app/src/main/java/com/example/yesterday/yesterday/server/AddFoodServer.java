@@ -40,7 +40,8 @@ public class AddFoodServer extends AsyncTask<Void,Void,String> {
         RequestBody requestBody = null;
 
         //보낼 데이터를 파라미터 형식으로 body에 넣음
-        requestBody = new FormBody.Builder().add("parent_id",parent_id).add("foodString",foodString).add("foodTime",foodTime).add("date",date).build();
+        requestBody = new FormBody.Builder().add("parent_id",parent_id).add("foodString",foodString).add("foodTime",foodTime).
+                add("date",date).build();
 
         // post형식으로 url로 만든 body를 보냄
         Request request = new Request.Builder()

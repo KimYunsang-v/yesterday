@@ -53,7 +53,7 @@ public class AlarmUtils {
         }
 
         //알람 예약 Doze모드에서도 알림 작동하도록
-        am.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis() + delay, sender);
+        //am.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis() + delay, sender);
         Log.d("AlarmProgress", "Progress 알림 설정 완료");
 
     }
@@ -85,7 +85,7 @@ public class AlarmUtils {
         }
 
         //알람 예약 Doze모드에서도 알림 작동하도록
-        am.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis() + delay, sender);
+        //am.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis() + delay, sender);
         Log.d("AlarmResister", "OverRegister 알림 설정 완료");
     }
 

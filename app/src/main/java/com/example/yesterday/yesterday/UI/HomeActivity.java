@@ -77,9 +77,6 @@ public class HomeActivity extends AppCompatActivity {
     private PrimaryDrawerItem logout = new PrimaryDrawerItem().withIdentifier(2).withName("로그아웃").withIcon(R.drawable.ic_playlist_add_black_24dp).withIconTintingEnabled(true);
     private PrimaryDrawerItem push = new PrimaryDrawerItem().withIdentifier(2).withName("푸시알람설정").withIcon(R.drawable.ic_wb_sunny_black_24dp).withIconTintingEnabled(true);
     private PrimaryDrawerItem info = new PrimaryDrawerItem().withIdentifier(3).withName("회원정보").withIcon(R.drawable.ic_help_outline_black_24dp).withIconTintingEnabled(true);
-
-
-
     private SecondaryDrawerItem sectionHeader = new SecondaryDrawerItem().withName("section_header");
 
     Drawer drawerResult;
